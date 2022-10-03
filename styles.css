@@ -74,8 +74,13 @@ main{
     width: 100%;
     height: 100%;
 
-    background-color: var(--primary-color);
-    filter: opacity(70%) saturate(120%) brightness(50%) contrast(120%);
+    background-color: hsl(277, 64%, 61%);
+    /*filter: opacity(70%) saturate(120%) brightness(50%) contrast(120%);*/
+}
+
+.image-container img{
+    mix-blend-mode: multiply;
+    opacity: 80%;
 }
 
 main h1{
